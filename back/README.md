@@ -27,5 +27,5 @@ Built in Node.js & Express using MongoDB & Mongoose.
 
 ## Author 👨‍💻
 
-Victor Souto <souto.victor@gmail.com>
+Victor Souto <souto.victor@gmail.com> at Philips
 

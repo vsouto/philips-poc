@@ -9,7 +9,7 @@ const express = require('express'),
   bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/custom-monitor')
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/philips-poc')
 
 app.use(cors()); //enable cors on all requests
 app.use(bodyParser.urlencoded({ extended: true }));

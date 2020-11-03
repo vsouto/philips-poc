@@ -5,8 +5,8 @@ var rootPath = path.dirname(require.main.filename);
 
 const mongoose = require('mongoose'),
   MonitorModel = mongoose.model('MonitorModel'),
-    Monitor = require('../../framework/monitor/monitor'),
-    Element = require('../../framework/elements/element'),
+    Monitor = require('../../framework/monitor'),
+    Element = require('../../framework/element'),
     ElementModel = mongoose.model('ElementModel');
 
 exports.listAll = function(req, res) {
