@@ -1,5 +1,5 @@
 {
-  "name": "mean-blog-back",
+  "name": "philips-poc-back",
   "version": "1.0.0",
   "description": "Nodejs and Mongo restful api",
   "main": "index.js",

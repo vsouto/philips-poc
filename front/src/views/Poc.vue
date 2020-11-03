@@ -47,11 +47,6 @@ export default {
         href: 'https://nodejs.org/',
       }
     ]
-  }),
-  methods: {
-    goToBlog() {
-      this.$router.push({name: 'Blog'})
-    }
-  }
+  })
 };
 </script>
